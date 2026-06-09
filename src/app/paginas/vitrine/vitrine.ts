@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { Moda } from "../../shared/moda/moda";
 
 @Component({
   selector: 'app-vitrine',
-  imports: [],
+  imports: [Moda],
   templateUrl: './vitrine.html',
   styleUrl: './vitrine.css',
 })
