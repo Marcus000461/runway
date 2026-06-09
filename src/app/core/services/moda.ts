@@ -5,7 +5,7 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root',
 })
-export class Moda {
+export class ModaService {
   private readonly http= inject(HttpClient)
   private readonly apiUrl = "https://api-senai-angular.vercel.app/api"
 

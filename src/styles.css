@@ -1,5 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
-a/* ================================================================
+/* ================================================================
    [DESIGN SYSTEM - FASHION E-COMMERCE LUMINA]
    ================================================================ */
 
@@ -350,7 +349,7 @@ select {
    HERO BANNER — Lumina Fashion Banner
    ================================================================ */
 .moda-banner {
-  background-color: var(--cor-texto-suave);
+  background-image: url("../public/Imagem.runway.jpeg");
   color: #ffffff;
   padding: 80px 60px;
   display: flex;

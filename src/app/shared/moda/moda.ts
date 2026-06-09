@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
+import { ModaModel } from '../../core/models/moda';
 
 @Component({
   selector: 'app-moda',
@@ -6,4 +7,7 @@ import { Component } from '@angular/core';
   templateUrl: './moda.html',
   styleUrl: './moda.css',
 })
-export class Moda {}
+export class Moda {
+
+  data = input.required<ModaModel>()
+}

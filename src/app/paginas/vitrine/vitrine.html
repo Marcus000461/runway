@@ -32,16 +32,9 @@
     <p class="vitrine-titulo">4 produtos em destaque</p>
 
     <div class="vitrine">
-      <app-moda></app-moda>
+        @for (item of moda(); track $index){
+          <app-moda [data]="item"></app-moda>
+        }
+
     </div>
   </section>
-
-  <!-- PAGINAÇÃO -->
-  <div class="paginacao">
-    <button class="paginacao-btn"><i class="fas fa-chevron-left"></i></button>
-    <button class="paginacao-btn ativo">1</button>
-    <button class="paginacao-btn">2</button>
-    <button class="paginacao-btn">3</button>
-    <button class="paginacao-btn"><i class="fas fa-chevron-right"></i></button>
-  </div>
-</main>
