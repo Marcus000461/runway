@@ -1,67 +1,47 @@
- <main>
-    <!-- BANNER HERO DA SEÇÃO -->
-     
-    <section class="moda-banner" >
+<main>
+  <!-- BANNER HERO DA SEÇÃO -->
 
-      <span class="moda-banner-tag"><i class="fas fa-sparkles"></i> Coleção Runway 2026</span>
-      <h1 class="moda-banner-titulo">A alta costura<br>ao seu alcance</h1>
-      <p class="moda-banner-sub">
-        Explore peças exclusivas, perfumes importados e joias artesanais projetadas para expressar a sua verdadeira essência.
-      </p>
-      <div class="banner-numero-fundo">RW</div>
-    </section>
+  <section class="moda-banner">
+    <span class="moda-banner-tag"><i class="fas fa-sparkles"></i> Coleção Runway 2026</span>
+    <h1 class="moda-banner-titulo">A alta costura<br />ao seu alcance</h1>
+    <p class="moda-banner-sub">
+      Explore peças exclusivas, perfumes importados e joias artesanais projetadas para expressar a
+      sua verdadeira essência.
+    </p>
+    <div class="banner-numero-fundo">RW</div>
+  </section>
 
-    <!-- BARRA DE CONTROLES E FILTROS RÁPIDOS -->
-    <div class="moda-controles" id="catalogo">
-      <div class="busca-container">
-        <span class="busca-icone"><i class="fas fa-search"></i></span>
-        <input class="busca-input" type="text" placeholder="Buscar produtos..." />
-      </div>
-
-      <div class="filtros-lista">
-        <button class="filtro-btn ativo">Todos</button>
-        <button class="filtro-btn">Roupas</button>
-        <button class="filtro-btn">Perfumes</button>
-        <button class="filtro-btn">Bolsas</button>
-        <button class="filtro-btn">Joias</button>
-      </div>
+  <!-- BARRA DE CONTROLES E FILTROS RÁPIDOS -->
+  <div class="moda-controles" id="catalogo">
+    <div class="busca-container">
+      <span class="busca-icone"><i class="fas fa-search"></i></span>
+      <input class="busca-input" type="text" placeholder="Buscar produtos..." />
     </div>
 
-    <!-- GRADE DE PRODUTOS (VITRINE) -->
-    <section class="vitrine-container">
-      <p class="vitrine-titulo">4 produtos em destaque</p>
-
-      <div class="vitrine">
-        
-       
-
-      <app-moda></app-moda>  
-          <div class="imagem-wrapper">
-            <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?q=80&w=500" alt="Relogio ">
-          </div>
-          <div class="info-produto">
-            <span class="badge badge-verde"><i class="fas fa-shopping-bag"></i> Bolsas</span>
-            <h2 class="nome-produto">Bolsa Tote Clássica</h2>
-            <p class="descricao-produto">
-              Espaço interno excelente e acabamento em couro legítimo de alta durabilidade com costura reforçada à mão. Possui divisórias internas funcionais e alças ajustáveis muito confortáveis.
-            </p>
-            <div class="produto-rodape">
-              <span class="preco">R$ 1.250,00</span>
-              <button class="btn-primario">Ver mais <i class="fas fa-arrow-right"></i></button>
-            </div>
-          </div>
-
-
-</div>
-
-    </section>
-
-    <!-- PAGINAÇÃO -->
-    <div class="paginacao">
-      <button class="paginacao-btn"><i class="fas fa-chevron-left"></i></button>
-      <button class="paginacao-btn ativo">1</button>
-      <button class="paginacao-btn">2</button>
-      <button class="paginacao-btn">3</button>
-      <button class="paginacao-btn"><i class="fas fa-chevron-right"></i></button>
+    <div class="filtros-lista">
+      <button class="filtro-btn ativo">Todos</button>
+      <button class="filtro-btn">Roupas</button>
+      <button class="filtro-btn">Perfumes</button>
+      <button class="filtro-btn">Bolsas</button>
+      <button class="filtro-btn">Joias</button>
     </div>
-  </main>
+  </div>
+
+  <!-- GRADE DE PRODUTOS (VITRINE) -->
+  <section class="vitrine-container">
+    <p class="vitrine-titulo">4 produtos em destaque</p>
+
+    <div class="vitrine">
+      <app-moda></app-moda>
+    </div>
+  </section>
+
+  <!-- PAGINAÇÃO -->
+  <div class="paginacao">
+    <button class="paginacao-btn"><i class="fas fa-chevron-left"></i></button>
+    <button class="paginacao-btn ativo">1</button>
+    <button class="paginacao-btn">2</button>
+    <button class="paginacao-btn">3</button>
+    <button class="paginacao-btn"><i class="fas fa-chevron-right"></i></button>
+  </div>
+</main>
