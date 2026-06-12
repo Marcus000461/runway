@@ -1,8 +1,13 @@
 import { Component, inject } from '@angular/core';
 import { Router, RouterLink } from "@angular/router";
+<<<<<<< HEAD
 
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { AuthService } from '../../../core/services/auth';
+=======
+import { AuthService } from '../../../core/services/outh';
+import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
+>>>>>>> 6689c8aadcc313180eee3c27985a857aa07070e3
 
 @Component({
   selector: 'app-login',

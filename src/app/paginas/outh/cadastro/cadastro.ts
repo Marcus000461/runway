@@ -1,8 +1,12 @@
 import { Component, inject } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { Router, RouterLink } from "@angular/router";
+<<<<<<< HEAD
 import { AuthService } from '../../../core/services/auth';
 
+=======
+import { AuthService } from '../../../core/services/outh';
+>>>>>>> 6689c8aadcc313180eee3c27985a857aa07070e3
 
 @Component({
   selector: 'app-cadastro',
@@ -28,4 +32,8 @@ export class Cadastro {
       error: () => alert("Dados inválidos!")
     })
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6689c8aadcc313180eee3c27985a857aa07070e3
