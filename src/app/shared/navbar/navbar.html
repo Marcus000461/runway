@@ -7,8 +7,13 @@
         <li><a routerLink="/" class="nav-link">Sobre</a></li>
         <li><a routerLink="/" class="nav-link">Contato</a></li>
       </ul>
-
-      <a routerLink="/login" class="btn-sair"><i class="fas fa-shopping-bag"></i> Login</a>
+      
+      @if(authService.isLoggedIn()){
+        <a routerLink="/login" class="btn-sair">Painel Admin<i class="fas fa-shopping-bag"></i></a>
+        <button type="button" (click)="authService.logout()" class="btn-perigo">Sair</button>
+      }@else{
+        <a routerLink="/login" class="btn-sair">Login<i></i></a>
+      }
     </nav>
   </header>
 
